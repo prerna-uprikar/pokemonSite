@@ -1,0 +1,30 @@
+.footerContainer{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+.footerSec1{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    padding-right: 40px;
+}
+.footerContainerWrapper{
+    background: #1f1f1f;
+    padding: 30px;
+}
+.footer{
+    margin: 5px 0px;
+}
+
+.footerSec2{
+    border-right: 2px solid black;
+    padding-right: 40px;
+}
+
+.footerSec3{
+ display: flex;
+ flex-direction: column;
+}

@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+    overflow: scroll;
+    height: 800px;
+}

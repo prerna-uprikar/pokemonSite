@@ -1,0 +1,240 @@
+.pokemonContainer{
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png');
+    width: 100%;
+    height: 100vH;
+}
+
+.pokemonSection{
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+    width: 85%;
+    height: 100vH;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.advaceSearch{
+    background-color: rgb(88, 87, 87);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downArrow{
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    height: 20px;
+    text-align: center;
+}
+.supriseSectionContainer{
+   background-color: white;
+   width: 80%;
+   margin: 0 auto;
+}
+.supriseSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    height: 100px;
+    align-items: center;
+}
+.supriseMeButton{
+    background-color: #30a7d7;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 20px;
+}
+.sortBy{
+    color: rgb(175, 172, 172);
+    font-size: 25px;
+    font-family: monospace;
+}
+.sortSectionWrapper{
+    display: flex;
+    align-items: center;
+}
+.lowestNumberCont{
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.pokeCardImage{
+    background-color: #f7f0f0;
+    width: 100%;
+}
+
+.pokemonCard{
+    width: 20%;
+    height: 200px;
+    text-align: start;
+     margin-bottom: 130px;
+}
+.pokemonId{
+    margin-top: 10px;
+    color: grey;
+}
+.pokemonName{
+    margin: 10px 0px;
+    color: black;
+    font-size: 28px;
+}
+.pokemonTypeContainer{
+    display: flex;
+}
+.pokemonType{
+    background-color: #9bcc50;
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.pokemonInfo{
+    margin-left: 10px;
+    background-color: #b97fc9;
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.pokemonCardSectionWrapper{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    overflow-y: scroll;
+}
+.pokemonCardSection{
+    margin-bottom: 30px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: grid;
+    padding: 30px;
+}
+.loadMorePokeom{
+    background-color: #30a7d7;
+    color: white;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+}
+
+.EvoSection{
+    display: flex;
+}
+
+.pokemonEvoImageSec{
+    width: 50%;
+}
+.evoTextPara{
+    font-size: 18px;
+    color: rgb(95, 91, 91);
+    font-family: monospace;
+}
+
+.evoVersion{
+    margin: 30px 0px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.boxSection{
+   display: flex;
+   justify-content: space-between;
+    background-color: #30a7d7;
+    color: white;
+    padding: 30px 60px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.evoDetails{
+    margin-bottom: 30px;
+}
+.typeSectionText{
+    font-size: 18px;
+    color: rgb(95, 91, 91);
+    font-family: monospace;
+}
+.typeSectionTextType{
+   background-color: green; 
+   margin-right: 10px;  
+   border-radius: 10px;
+   padding: 10px;
+   color: white;
+}
+.typeSectionTextTypePoi{
+    background-color: rgb(242, 147, 242); 
+    border-radius: 10px;
+    margin-right: 10px;  
+    padding: 10px;
+    color: white;
+ }
+.typeSectionText{
+    margin: 10px 0px;
+    display: flex;
+}
+.typeSectionTextTypeFire{
+    background-color: orange; 
+    border-radius: 10px;
+    margin-right: 10px;  
+    padding: 10px;
+    color: white;
+}
+.typeSectionTextTypeIce{
+    background-color: lightblue; 
+    border-radius: 10px;
+    margin-right: 10px;  
+    padding: 10px;
+    color: white;
+}
+.typeSectionTextTypePsychic{
+    background-color: pink; 
+    border-radius: 10px;
+    margin-right: 10px;  
+    padding: 10px;
+    color: white;
+}
+.evolutionSectionWrap{
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/body_gray_bg.png');
+    height: 350px;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.evolutiontxt{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+.evolutioImages{
+    border: 3px solid white;
+    border-radius: 110px;
+}
+.eimageWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titlee{
+    color: black !important;
+    font-size: 40px;
+}
